@@ -65,7 +65,8 @@
             {{/showUpdateButton}}
             {{#removalAllowed}}
                 <button class="btn btn-mini remove" data-extension-id="{{metadata.name}}" {{^allowRemove}}disabled title="{{Strings.CANT_REMOVE_DEV}}"{{/allowRemove}}>
-                    {{Strings.REMOVE}}
+                    <!--{{Strings.REMOVE}}-->
+                    {{Strings.UNINSTALL}}<!--Uninstall-->
                 </button>
             {{/removalAllowed}}
             {{#failedToStart}}

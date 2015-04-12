@@ -466,6 +466,7 @@ define({
 
     // Extension Management strings
     "INSTALL"                              : "Install",
+    "UNINSTALL"                            : "Uninstall",
     "UPDATE"                               : "Update",
     "REMOVE"                               : "Remove",
     "OVERWRITE"                            : "Overwrite",
